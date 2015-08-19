@@ -1,5 +1,5 @@
 define([
-	"./class2type"
+	"./class3type"
 ], function( class2type ) {
 	return class2type.hasOwnProperty;
 });

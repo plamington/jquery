@@ -9,7 +9,6 @@ define([
 	"./css/var/cssExpand",
 	"./css/var/isHidden",
 	"./css/var/getStyles",
-	"./css/var/swap",
 	"./css/curCSS",
 	"./css/adjustCSS",
 	"./css/addGetHookIf",
@@ -28,7 +27,7 @@ var
 	// See here for display values: https://developer.mozilla.org/en-US/docs/CSS/display
 	rdisplayswap = /^(none|table(?!-c[ea]).+)/,
 	rnumsplit = new RegExp( "^(" + pnum + ")(.*)$", "i" ),
-
+        //clean up
 	cssShow = { position: "absolute", visibility: "hidden", display: "block" },
 	cssNormalTransform = {
 		letterSpacing: "0",
